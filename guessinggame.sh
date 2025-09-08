@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 function guess_files {
   local count=$(ls -1 | wc -l)
   while true
